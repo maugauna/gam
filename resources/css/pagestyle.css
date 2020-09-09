@@ -141,11 +141,11 @@ button[type=submit]:hover {
 }
 
 .grid .img-1 {
-    background-image: url(../components/wallpaper1.jpg)
+    background-image: url(../../components/wallpaper1.jpg)
 }
 
 .grid .img-2 {
-    background-image: url(../components/wallpaper2.jpg)
+    background-image: url(../../components/wallpaper2.jpg)
 }
 
 .grid .img-3 {
