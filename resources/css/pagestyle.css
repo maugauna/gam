@@ -141,35 +141,35 @@ button[type=submit]:hover {
 }
 
 .grid .img-1 {
-    background-image: url(/components/wallpaper1.jpg)
+    background-image: url(../components/wallpaper1.jpg)
 }
 
 .grid .img-2 {
-    background-image: url(/components/wallpaper2.jpg)
+    background-image: url(../components/wallpaper2.jpg)
 }
 
 .grid .img-3 {
-    background-image: url(/components/wallpaper3.jpg)
+    background-image: url(../../components/wallpaper3.jpg)
 }
 
 .grid .img-4 {
-    background-image: url(/components/wallpaper4.jpg)
+    background-image: url(../../components/wallpaper4.jpg)
 }
 
 .grid .img-5 {
-    background-image: url(/components/wallpaper5.jpg)
+    background-image: url(../../components/wallpaper5.jpg)
 }
 
 .grid .img-6 {
-    background-image: url(/components/wallpaper6.jpg)
+    background-image: url(../../components/wallpaper6.jpg)
 }
 
 .grid .img-7 {
-    background-image: url(/components/wallpaper7.jpg)
+    background-image: url(../../components/wallpaper7.jpg)
 }
 
 .grid .img-8 {
-    background-image: url(/components/wallpaper8.jpg)
+    background-image: url(../../components/wallpaper8.jpg)
 }
 
 .grid .img-1:hover {
