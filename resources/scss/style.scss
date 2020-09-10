@@ -88,14 +88,27 @@
   }
   
   @media (max-width: 768px) {
+    header {
+      margin-bottom: 190px;
+    }
+
     .indexmenu ul {
       color: black;
-      font-size: 60px;
+      font-size: 80px;
       font-weight: 700;
     }
   }
   
   @media (max-width: 376px) {
+    header {
+      margin-bottom: 90px;
+
+      .logo {
+        width: 80px;
+        padding: 10px 16px;
+      }
+    }
+
     .indexmenu ul {
       color: black;
       font-size: 50px;
