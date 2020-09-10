@@ -202,15 +202,19 @@ footer {
       padding: 10px 16px;
     }
 
-    .nav-links li {
-      display: inline-block;
-      padding: 0px 2px;
-    }
+    .nav-links {
+      margin-bottom: 10px;
 
-    .nav-links li a {
-      font-size: 9px;
+      li {
+        display: inline-block;
+        padding: 0px 2px;
+
+        a {
+          font-size: 9px;
+        }
+      }
     }
-  }
+  } 
 
   .content .text {
     width: 300px;
@@ -226,11 +230,16 @@ footer {
     margin-top: 0;
   }
 
-  .container p {
-    font-weight: bold;
-    font-size: 25px;
-    margin-bottom: 10px;
-  }
+  
+  .container {
+    margin-top: 0;
+  
+    p {
+      font-weight: bold;
+      font-size: 25px;
+      margin-bottom: 10px;
+    }
+  } 
 
   footer {
     .info {
