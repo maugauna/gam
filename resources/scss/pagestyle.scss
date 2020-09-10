@@ -170,17 +170,30 @@ footer {
 }
 
 @media (max-width: 768px) { 
+  
   header {
     margin-bottom: 30px;
   }
+
   .content .text {
     width: 600px;
     font-size: 59px;
     font-weight: bold;
   }
+
+  .container {
+    margin-top: 130px;
+  
+    p {
+      font-weight: bold;
+      font-size: 50px;
+      margin-bottom: 10px;
+    }
+  } 
 }
 
 @media (max-width: 376px) { 
+  
   header {
     margin-bottom: 30px;
 
