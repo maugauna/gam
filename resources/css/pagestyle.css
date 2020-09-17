@@ -11,6 +11,7 @@ html {
 
 body {
   min-height: 100%;
+  padding-top: 90px;
   background-color: white;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -22,36 +23,8 @@ body {
 }
 
 /* header & navbar */
-.nav-links li a {
-  font-size: 18px;
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
-  -webkit-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-}
-
-header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 15px;
-  margin-bottom: 50px;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  background-color: white;
-  z-index: 99;
-}
-
 .logo {
-  width: 110px;
+  width: 140px;
   padding: 10px 20px;
 }
 
@@ -60,31 +33,45 @@ header {
           transform: scale(0.95);
 }
 
-.nav-links {
-  margin-right: 20px;
+.navbar-light .navbar-toggler {
+  border-color: transparent;
 }
 
-.nav-links li {
-  display: inline-block;
-  padding: 0px 12px;
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+  font-weight: bold;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  text-align: right;
 }
 
-.nav-links li a:hover {
+.bg-light {
+  background-color: white !important;
+}
+
+.nav-link:hover {
   color: #43FFA8;
 }
 
 /* nosotros page & livestream page */
-.content {
+.container-fluid {
+  height: 100%;
+  width: 90%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 117.34px;
+  padding: 30px;
+  line-height: 1.2;
 }
 
-.content .text {
-  width: 1200px;
+.container-fluid p {
   font-size: 60px;
   font-weight: bold;
 }
@@ -248,17 +235,18 @@ footer li {
 }
 
 @media (max-width: 768px) {
-  header {
-    margin-bottom: 30px;
+  .logo {
+    width: 100px;
+    padding: 10px;
   }
-  .content .text {
-    width: 600px;
-    font-size: 59px;
+  .container-fluid .p {
+    font-size: 50px;
     font-weight: bold;
   }
   .container {
     margin-top: 130px;
     margin-bottom: 50px;
+    line-height: 1.2;
   }
   .container p {
     font-weight: bold;
@@ -267,26 +255,8 @@ footer li {
   }
 }
 
-@media (max-width: 376px) {
-  header {
-    margin-bottom: 30px;
-  }
-  header .logo {
-    width: 80px;
-    padding: 10px 16px;
-  }
-  header .nav-links {
-    margin-bottom: 10px;
-  }
-  header .nav-links li {
-    display: inline-block;
-    padding: 0px 2px;
-  }
-  header .nav-links li a {
-    font-size: 9px;
-  }
-  .content .text {
-    width: 300px;
+@media (max-width: 576px) {
+  .container-fluid p {
     font-size: 30px;
     font-weight: bold;
   }

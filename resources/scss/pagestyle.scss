@@ -11,6 +11,7 @@ html {
 
 body {
   min-height: 100%;
+  padding-top: 90px;
   background-color: white;
   display: flex;
   flex-direction: column;
@@ -18,28 +19,8 @@ body {
 
 /* header & navbar */
 
-.nav-links li a {
-  font-size: 18px;
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
-  transition: all 0.3s ease 0s;
-}
-
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px;
-  margin-bottom: 50px;
-  position: sticky;
-  top: 0;
-  background-color: white;
-  z-index: 99;
-}
-
 .logo {
-  width: 110px;
+  width: 140px;
   padding: 10px 20px;
 
   &:hover {
@@ -47,27 +28,38 @@ header {
   }
 }
 
-.nav-links {
-  margin-right: 20px;
+.navbar-light .navbar-toggler {
+  border-color: transparent;;
+}
 
-  li {
-    display: inline-block;
-    padding: 0px 12px;
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+  font-weight: bold;
+  transition: all 0.3s ease 0s;
+  text-align: right;
+}
 
-    a:hover {
-      color: #43FFA8;
-    }
-  }
+.bg-light {
+  background-color: white!important;
+}
+
+.nav-link:hover {
+    color: #43FFA8;
 }
 
 /* nosotros page & livestream page */
 
-.content {
+.container-fluid {
+  height: 100%;
+  width: 90%;
   display: flex;
   justify-content: center;
+  align-items: center;
+  margin-bottom: 117.34px;
+  padding: 30px;
+  line-height: 1.2;
 
-  .text {
-    width: 1200px;
+  p {
     font-size: 60px;
     font-weight: bold;
   }
@@ -170,20 +162,21 @@ footer {
 }
 
 @media (max-width: 768px) { 
-  
-  header {
-    margin-bottom: 30px;
+
+  .logo {
+    width: 100px;
+    padding: 10px;
   }
 
-  .content .text {
-    width: 600px;
-    font-size: 59px;
+  .container-fluid .p {
+    font-size: 50px;
     font-weight: bold;
   }
 
   .container {
     margin-top: 130px;
     margin-bottom: 50px;
+    line-height: 1.2;
   
     p {
       font-weight: bold;
@@ -193,32 +186,9 @@ footer {
   } 
 }
 
-@media (max-width: 376px) { 
-  
-  header {
-    margin-bottom: 30px;
+@media (max-width: 576px) { 
 
-    .logo {
-      width: 80px;
-      padding: 10px 16px;
-    }
-
-    .nav-links {
-      margin-bottom: 10px;
-
-      li {
-        display: inline-block;
-        padding: 0px 2px;
-
-        a {
-          font-size: 9px;
-        }
-      }
-    }
-  } 
-
-  .content .text {
-    width: 300px;
+  .container-fluid p {
     font-size: 30px;
     font-weight: bold;
   }
