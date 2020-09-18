@@ -250,14 +250,6 @@ footer li {
     font-size: 50px;
     font-weight: bold;
   }
-  .container {
-    margin-bottom: 50px;
-    line-height: 1.2;
-  }
-  .container p {
-    font-weight: bold;
-    font-size: 40px;
-  }
 }
 
 @media (max-width: 576px) {
