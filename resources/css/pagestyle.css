@@ -56,7 +56,6 @@ body {
 /* nosotros page & livestream page */
 .container-fluid {
   height: 100%;
-  width: 90%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -67,7 +66,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 117.34px;
-  padding: 30px;
+  padding: 60px;
   line-height: 1.2;
 }
 
@@ -239,7 +238,10 @@ footer li {
     width: 100px;
     padding: 10px;
   }
-  .container-fluid .p {
+  .container-fluid {
+    padding: 30px;
+  }
+  .container-fluid p {
     font-size: 50px;
     font-weight: bold;
   }

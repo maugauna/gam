@@ -51,12 +51,11 @@ body {
 
 .container-fluid {
   height: 100%;
-  width: 90%;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 117.34px;
-  padding: 30px;
+  padding: 60px;
   line-height: 1.2;
 
   p {
@@ -168,9 +167,14 @@ footer {
     padding: 10px;
   }
 
-  .container-fluid .p {
-    font-size: 50px;
-    font-weight: bold;
+  .container-fluid {
+    
+    padding: 30px;
+    
+    p {
+      font-size: 50px;
+      font-weight: bold;
+  }
   }
 
   .container {
