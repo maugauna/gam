@@ -76,7 +76,7 @@ body {
 
   p {
     font-weight: bold;
-    font-size: 35px;
+    font-size: 40px;
   }
 
   label {
@@ -179,18 +179,7 @@ footer {
       font-weight: bold;
   }
   }
-
-  .container {
-    margin-bottom: 50px;
-    line-height: 1.2;
   
-    p {
-      font-weight: bold;
-      font-size: 50px;
-    }
-  } 
-}
-
 @media (max-width: 576px) { 
 
   .container-fluid p {
@@ -208,8 +197,7 @@ footer {
 
   
   .container {
-    margin-top: 0;
-  
+
     p {
       font-weight: bold;
       font-size: 25px;

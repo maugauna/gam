@@ -93,7 +93,7 @@ body {
 
 .container p {
   font-weight: bold;
-  font-size: 35px;
+  font-size: 40px;
 }
 
 .container label {
@@ -256,7 +256,7 @@ footer li {
   }
   .container p {
     font-weight: bold;
-    font-size: 50px;
+    font-size: 40px;
   }
 }
 
@@ -272,9 +272,6 @@ footer li {
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 30px;
     margin: 40px;
-    margin-top: 0;
-  }
-  .container {
     margin-top: 0;
   }
   .container p {
