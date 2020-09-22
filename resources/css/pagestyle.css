@@ -236,6 +236,12 @@ body {
   color: black;
 }
 
+.footer__link:hover {
+  color: black;
+  -webkit-text-decoration-color: #43FFA8;
+          text-decoration-color: #43FFA8;
+}
+
 @media (max-width: 768px) {
   .logo {
     width: 100px;

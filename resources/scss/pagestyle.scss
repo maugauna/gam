@@ -167,6 +167,11 @@ body {
   &__link {
     text-decoration: none;
     color: black;
+
+    &:hover {
+      color: black;
+      text-decoration-color: $minty-green;
+    }
   }
 }
 
