@@ -1,3 +1,5 @@
+$minty-green: #43FFA8;
+
 * {
   margin: 0;
   padding: 0;
@@ -17,7 +19,7 @@ body {
   flex-direction: column;
 }
 
-/* header & navbar */
+// header & navbar
 
 .logo {
   width: 140px;
@@ -29,7 +31,8 @@ body {
 }
 
 .navbar-light .navbar-toggler {
-  border-color: transparent;;
+  border-color: transparent;
+  ;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -40,32 +43,38 @@ body {
 }
 
 .bg-light {
-  background-color: white!important;
+  background-color: white !important;
 }
 
 .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
-    color: #43FFA8;
+  color: $minty-green;
 }
 
-/* nosotros page & livestream page */
+.active a {
+  color: $minty-green !important;
+  background-color: white;
+}
+
+// nosotros & livestream
 
 .container-fluid {
   height: 100%;
+  width: 80%;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 117.34px;
+  margin-bottom: 60px;
   padding: 60px;
   line-height: 1.2;
 
-  p {
+  &__text {
     font-size: 60px;
     font-weight: bold;
     margin-bottom: 0;
   }
 }
 
-/* contacto page */
+// contacto
 
 .container {
   height: 100%;
@@ -74,16 +83,29 @@ body {
   margin-bottom: 50px;
   align-items: center;
 
-  p {
+  &__text {
     font-weight: bold;
     font-size: 40px;
   }
 
-  label {
+  &__label {
     font-weight: 500;
   }
 
-  input {
+  &__textarea {
+    display: block;
+    width: 100%;
+    height: 150px;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: none;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 6px 12px;
+  }
+
+  &__input {
     display: block;
     width: 100%;
     border: 1px solid lightgrey;
@@ -94,47 +116,31 @@ body {
     margin-bottom: 10px;
     padding: 6px 12px;
   }
-}
 
-textarea {
-  display: block;
-  width: 100%;
-  border: 1px solid lightgrey;
-  border-radius: 4px;
-  box-sizing: border-box;
-  resize: none;
-  margin: 0;
-  margin-bottom: 10px;
-  padding: 6px 12px;
-}
+  &__button[type=submit] {
+    width: 100%;
+    background-color: $minty-green;
+    color: black;
+    font-weight: bold;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 
-.container textarea {
-  height: 150px;
-}
-
-button[type=submit] {
-  width: 100%;
-  background-color: #43FFA8;
-  color: black;
-  font-weight: bold;
-  padding: 6px 12px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-
-  &:hover {
-    color: white;
-    transition: all 0.3s ease 0s;
+    &:hover {
+      color: white;
+      transition: all 0.3s ease 0s;
+    }
   }
 }
 
-/* trabajos page */
+// trabajos
 
 @import 'grid-images';
 
-/* pages footer */
+// footer
 
-footer {
+.footer {
   display: flex;
   justify-content: space-around;
   width: 100%;
@@ -143,27 +149,27 @@ footer {
   background-color: #EAEAEA;
   margin-top: auto;
 
-  div {
+  &__section {
     margin-right: 50px;
   }
 
-  a {
+  &__text {
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+
+  &__list-item {
+    margin-bottom: 5px;
+  }
+
+  &__link {
     text-decoration: none;
     color: black;
   }
-
-  li {
-    margin-bottom: 5px;
-  }
 }
 
-.info {
-  font-weight: bold;
-  font-size: 15px;
-  margin-bottom: 5px;
-}
-
-@media (max-width: 768px) { 
+@media (max-width: 768px) {
 
   .logo {
     width: 100px;
@@ -171,19 +177,20 @@ footer {
   }
 
   .container-fluid {
-    
+
     padding: 30px;
-    
-    p {
+    width: 100%;
+
+    &__text {
       font-size: 50px;
       font-weight: bold;
-  }
+    }
   }
 }
 
-@media (max-width: 576px) { 
+@media (max-width: 576px) {
 
-  .container-fluid p {
+  .container-fluid .container-fluid__text {
     font-size: 30px;
     font-weight: bold;
   }
@@ -196,24 +203,23 @@ footer {
     margin-top: 0;
   }
 
-  
   .container {
 
-    p {
+    &__text {
       font-weight: bold;
       font-size: 25px;
     }
-  } 
+  }
 
-  footer {
-    .info {
+  .footer {
+    font-size: 10px;
+
+    &__section {
+      margin-right: 0;
+    }
+
+    &__text {
       font-size: 12px;
     }
-    
-    font-size: 10px;
-    
-    div {
-      margin-right: 0;
-    } 
   }
 }
