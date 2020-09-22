@@ -13,7 +13,7 @@ html {
 
 body {
   height: 100%;
-  padding-top: 90px;
+  // padding-top: 90px;
   background-color: white;
   display: flex;
   flex-direction: column;
@@ -63,7 +63,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 60px;
+  // margin-bottom: 60px;
   padding: 60px;
   line-height: 1.2;
 
@@ -81,6 +81,7 @@ body {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
+  margin-top: 90px;
   align-items: center;
 
   &__text {
@@ -142,15 +143,15 @@ body {
 
 .footer {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   width: 100%;
   font-size: 13px;
   padding: 5px;
   background-color: #EAEAEA;
   margin-top: auto;
 
-  &__section {
-    margin-right: 50px;
+  ul {
+    margin-bottom: 0;
   }
 
   &__text {
