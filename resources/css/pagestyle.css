@@ -259,7 +259,7 @@ body {
 
 @media (max-width: 576px) {
   .container-fluid .container-fluid__text {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
   }
   .grid {
@@ -273,7 +273,7 @@ body {
   }
   .container__text {
     font-weight: bold;
-    font-size: 24px;
+    font-size: 20px;
   }
   .footer {
     font-size: 10px;
