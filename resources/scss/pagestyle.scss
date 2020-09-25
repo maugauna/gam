@@ -277,7 +277,7 @@ body {
 @media (min-width:320px) and (max-width:900px)  and (orientation: landscape){
 
   .container-fluid .container-fluid__text {
-    margin-top: 30px;
+    margin-top: 60px;
     font-size: 20px;
     font-weight: bold;
   }
@@ -291,6 +291,8 @@ body {
   }
 
   .container {
+
+    margin-top: 110px;
 
     &__text {
       font-weight: bold;
