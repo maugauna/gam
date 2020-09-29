@@ -42,8 +42,12 @@ body {
   text-align: right;
 }
 
-.bg-light {
-  background-color: white !important;
+.bg-custom {
+  background-color: white;
+}
+
+.navbar-collapse {
+  height: 100vh;
 }
 
 .navbar-collapse .navbar-nav .nav-item .nav-link:hover {

@@ -39,8 +39,8 @@ body {
   z-index: 99;
 }
 
-.bg-light {
-  background-color: #43FFA8 !important;
+.bg-custom {
+  background-color: #43FFA8;
 }
 
 .logo {
