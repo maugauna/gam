@@ -39,23 +39,19 @@ body {
   color: black;
   font-weight: bold;
   transition: all 0.3s ease 0s;
-  text-align: right;
+  text-align: center;
 }
 
 .bg-custom {
   background-color: white;
 }
 
-.navbar-collapse {
-  height: 100vh;
-}
-
 .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
   color: $minty-green;
 }
 
-.active a {
-  color: $minty-green !important;
+.navbar-light .navbar-nav .active>.nav-link {
+  color: $minty-green;
   background-color: white;
 }
 
@@ -184,6 +180,16 @@ body {
   .logo {
     width: 100px;
     padding: 10px;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    font-size: 30px;;
+  }
+
+  .navbar-collapse ul{
+    height: 100vh;
+    justify-content: center;
+    transform: translate(0, -10%);
   }
 
   .container-fluid {
