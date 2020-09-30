@@ -177,19 +177,28 @@ body {
 
 @media (max-width: 768px) {
 
+  .nav-logo {
+    z-index: 90;
+  }
+
   .logo {
     width: 100px;
     padding: 10px;
   }
 
+  .navbar-light .navbar-toggler {
+    z-index: 90;
+  }
+
   .navbar-light .navbar-nav .nav-link {
-    font-size: 30px;;
+    font-size: 50px;;
   }
 
   .navbar-collapse ul{
-    height: 100vh;
+    height:100vh;
     justify-content: center;
-    transform: translate(0, -10%);
+    transform: translate(0, -11%);
+    line-height: 1.25;
   }
 
   .container-fluid {
