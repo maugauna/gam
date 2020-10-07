@@ -171,8 +171,21 @@ body {
           transform: scale(1.01);
 }
 
-.grid .grid__img-1 {
-  background-image: url(../../components/wallpaper1.jpg);
+.grid .video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+.grid .video-container iframe,
+.grid .video-container object,
+.grid .video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .grid .grid__img-2 {
@@ -254,7 +267,7 @@ body {
     z-index: 90;
   }
   .navbar-light .navbar-nav .nav-link {
-    font-size: 50px;
+    font-size: 30px;
   }
   .navbar-collapse ul {
     height: 100vh;
@@ -276,6 +289,9 @@ body {
 }
 
 @media (max-width: 576px) {
+  .container-fluid {
+    display: inline-block;
+  }
   .container-fluid .container-fluid__text {
     font-size: 20px;
     font-weight: bold;
@@ -287,7 +303,7 @@ body {
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 30px;
     margin: 40px;
-    margin-top: 0;
+    margin-top: 120px;
   }
   .container__text {
     font-weight: bold;
@@ -316,7 +332,7 @@ body {
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 30px;
     margin: 40px;
-    margin-top: 0;
+    margin-top: 120px;
   }
   .container__text {
     font-weight: bold;
@@ -352,7 +368,7 @@ body {
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 30px;
     margin: 40px;
-    margin-top: 0;
+    margin-top: 120px;
   }
   .container {
     margin-top: 110px;
