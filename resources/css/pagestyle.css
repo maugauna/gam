@@ -282,16 +282,12 @@ body {
     width: 100%;
   }
   .container-fluid__text {
-    font-size: 50px;
+    font-size: 25px;
     font-weight: bold;
   }
 }
 
 @media (max-width: 576px) {
-  .container-fluid .container-fluid__text {
-    font-size: 25px;
-    font-weight: bold;
-  }
   .grid {
     display: -ms-grid;
     display: grid;
@@ -317,10 +313,6 @@ body {
 }
 
 @media (min-width: 901px) and (max-width: 1024px) and (orientation: landscape) {
-  .container-fluid .container-fluid__text {
-    font-size: 50px;
-    font-weight: bold;
-  }
   .grid {
     display: -ms-grid;
     display: grid;
@@ -358,8 +350,6 @@ body {
   }
   .container-fluid .container-fluid__text {
     margin-top: 60px;
-    font-size: 20px;
-    font-weight: bold;
   }
   .grid {
     display: -ms-grid;
