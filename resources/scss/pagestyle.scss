@@ -175,7 +175,7 @@ body {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
 
   .nav-logo {
     z-index: 90;
@@ -194,11 +194,10 @@ body {
     font-size: 30px;;
   }
 
-  .navbar-collapse ul{
-    height:100vh;
+  .navbar-nav{
+    min-height: 100vh;
     justify-content: center;
     transform: translate(0, -10%);
-    line-height: 1.25;
   }
 
   .container-fluid {
@@ -216,7 +215,7 @@ body {
 @media (max-width: 576px) {
 
   .container-fluid .container-fluid__text {
-      font-size: 20px;
+      font-size: 30px;
       font-weight: bold;
   }
 
@@ -296,7 +295,7 @@ body {
 @media (min-width:320px) and (max-width:900px)  and (orientation: landscape){
 
   .navbar-collapse ul{
-    transform: translate(0, -20%);
+    transform: translate(0, -10%);
   }
 
   .container-fluid .container-fluid__text {

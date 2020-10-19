@@ -255,7 +255,7 @@ body {
           text-decoration-color: #43FFA8;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .nav-logo {
     z-index: 90;
   }
@@ -269,14 +269,13 @@ body {
   .navbar-light .navbar-nav .nav-link {
     font-size: 30px;
   }
-  .navbar-collapse ul {
-    height: 100vh;
+  .navbar-nav {
+    min-height: 100vh;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
     -webkit-transform: translate(0, -10%);
             transform: translate(0, -10%);
-    line-height: 1.25;
   }
   .container-fluid {
     padding: 30px;
@@ -290,7 +289,7 @@ body {
 
 @media (max-width: 576px) {
   .container-fluid .container-fluid__text {
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
   }
   .grid {
@@ -354,8 +353,8 @@ body {
 
 @media (min-width: 320px) and (max-width: 900px) and (orientation: landscape) {
   .navbar-collapse ul {
-    -webkit-transform: translate(0, -20%);
-            transform: translate(0, -20%);
+    -webkit-transform: translate(0, -10%);
+            transform: translate(0, -10%);
   }
   .container-fluid .container-fluid__text {
     margin-top: 60px;
