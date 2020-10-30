@@ -392,6 +392,7 @@ body {
   .navbar-collapse ul {
     -webkit-transform: translate(0, -10%);
             transform: translate(0, -10%);
+    line-height: 1;
   }
   .container-fluid .container-fluid__text {
     margin-top: 60px;

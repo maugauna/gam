@@ -99,8 +99,11 @@ body {
 .navbar .fixed-bottom .navbar-light .bg-light {
   width: 100%;
   text-align: right;
-  background-color: transparent;
   margin-top: auto;
+}
+
+.bg-custom {
+  background-color: transparent;
 }
 
 .fixed-bottom {
