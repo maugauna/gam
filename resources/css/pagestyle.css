@@ -287,8 +287,9 @@ body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    -webkit-transform: translate(0, -10%);
-            transform: translate(0, -10%);
+    -webkit-transform: translate(0, -12%);
+            transform: translate(0, -12%);
+    line-height: 1.1;
   }
   .container-fluid {
     padding: 30px;
