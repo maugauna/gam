@@ -189,34 +189,6 @@ body {
   height: 100%;
 }
 
-.grid .grid__img-2 {
-  background-image: url(../../components/wallpaper2.jpg);
-}
-
-.grid .grid__img-3 {
-  background-image: url(../../components/wallpaper3.jpg);
-}
-
-.grid .grid__img-4 {
-  background-image: url(../../components/wallpaper4.jpg);
-}
-
-.grid .grid__img-5 {
-  background-image: url(../../components/wallpaper5.jpg);
-}
-
-.grid .grid__img-6 {
-  background-image: url(../../components/wallpaper6.jpg);
-}
-
-.grid .grid__img-7 {
-  background-image: url(../../components/wallpaper7.jpg);
-}
-
-.grid .grid__img-8 {
-  background-image: url(../../components/wallpaper8.jpg);
-}
-
 .footer {
   display: -webkit-box;
   display: -ms-flexbox;
