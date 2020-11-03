@@ -150,18 +150,6 @@ img:hover {
 }
 
 @media (min-width: 320px) and (max-width: 900px) and (orientation: landscape) {
-  .container-fluid {
-    margin-bottom: 100px;
-  }
-  .container-fluid ul {
-    color: black;
-    font-size: 30px;
-    font-weight: 700;
-  }
-  .logo {
-    width: 100px;
-    padding: 10px;
-  }
   img {
     width: 25px;
   }
