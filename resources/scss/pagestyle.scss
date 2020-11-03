@@ -169,7 +169,8 @@ body {
 
     &:hover {
       color: black;
-      text-decoration-color: $minty-green;
+      -webkit-text-decoration-color: $minty-green;
+              text-decoration-color: $minty-green;
     }
   }
 }

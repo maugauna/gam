@@ -17,8 +17,8 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   background-color: #43FFA8;
 }
 
@@ -27,11 +27,11 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 15px;
   position: -webkit-sticky;
   position: sticky;
@@ -50,7 +50,7 @@ body {
 
 .logo:hover {
   -webkit-transform: scale(0.95);
-  transform: scale(0.95);
+          transform: scale(0.95);
 }
 
 .container-fluid {
@@ -117,7 +117,7 @@ img {
 
 img:hover {
   -webkit-transform: scale(0.95);
-  transform: scale(0.95);
+          transform: scale(0.95);
 }
 
 .instagram-link {

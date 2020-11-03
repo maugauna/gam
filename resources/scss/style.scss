@@ -14,12 +14,7 @@ html {
 
 body {
   height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
   background-color: $minty-green;
 }
@@ -27,14 +22,8 @@ body {
 // header
 
 .navbar .navbar-light .bg-light {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
   justify-content: space-between;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   padding: 15px;
   position: -webkit-sticky;
@@ -52,7 +41,6 @@ body {
   padding: 10px 20px;
 
   &:hover {
-    -webkit-transform: scale(0.95);
     transform: scale(0.95);
   }
 }
@@ -85,7 +73,6 @@ body {
 
   li a:hover {
     color: white;
-    -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
   }
 }
@@ -115,7 +102,6 @@ img {
   margin-bottom: 15px;
 
   &:hover {
-    -webkit-transform: scale(0.95);
     transform: scale(0.95);
   }
 }
