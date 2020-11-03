@@ -138,7 +138,7 @@ img {
   }
 }
 
-@media (min-width:320px) and (max-width:900px) and (orientation: landscape) {
+@media (max-height:576px) and (max-width:992px) and (orientation: landscape) {
 
   .container-fluid {
     margin-bottom: 100px;
@@ -148,7 +148,7 @@ img {
       font-size: 40px;
       font-weight: 700;
     }
-  }
+  } 
 
   .logo {
     width: 100px;

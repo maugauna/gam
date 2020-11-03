@@ -149,7 +149,7 @@ img:hover {
   }
 }
 
-@media (min-width: 320px) and (max-width: 900px) and (orientation: landscape) {
+@media (max-height: 576px) and (max-width: 992px) and (orientation: landscape) {
   .container-fluid {
     margin-bottom: 100px;
   }
