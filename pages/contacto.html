@@ -38,7 +38,7 @@
   </nav>
 
   <div class="container">
-    <form onSubmit=formSubmit(event)>
+    <form method="POST" onSubmit=formSubmit(event)>
       <p class="container__text">envianos tu consulta<span style="color:#43FFA8">:</span></p>
       <label class="container__label" for="name">nombre</label>
       <input class="container__input" id="name" type="text" name="firstname">
@@ -91,6 +91,10 @@
     </div>
   </footer>
 
+  <script src="https://smtpjs.com/v3/smtp.js">
+  </script>
+  <script src="../resources/js/form.js">
+  </script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
     crossorigin="anonymous"></script>
